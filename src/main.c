@@ -71,7 +71,7 @@ void shell_loop(char **env)
 
     while (1)
     {
-        printf("[iradri@iru %s]:~$ ", getcwd(NULL, 0));
+        printf("[abhinav %s]:~$ ", getcwd(NULL, 0));
         if (getline(&input, &input_size, stdin) == -1)
         {
             // getline returns -1 in case of
